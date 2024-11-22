@@ -65,7 +65,7 @@ textarea {
 
 input[type="radio"],
 input[type="checkbox"] {
-  margin-right: 5px;
+  margin-right: 10px;
 }
 
 textarea {
@@ -74,7 +74,7 @@ textarea {
 }
 
 button#submit {
-  background-color: #4caf50;
+  background-color: #0e33db;
   color: white;
   padding: 12px 18px;
   border: none;
@@ -85,5 +85,5 @@ button#submit {
 }
 
 button#submit:hover {
-  background-color: ##f08080;
+  background-color: #f08080;
 }
