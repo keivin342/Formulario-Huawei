@@ -74,7 +74,7 @@ textarea {
 }
 
 button#submit {
-  background-color: #0e33db;
+  background-color: #0025f8;
   color: white;
   padding: 12px 18px;
   border: none;
@@ -85,5 +85,5 @@ button#submit {
 }
 
 button#submit:hover {
-  background-color: #f08080;
+  background-color: #0786ee;
 }
