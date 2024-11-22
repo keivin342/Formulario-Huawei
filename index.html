@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <tittle>Formulario Motorola</tittle>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="title"><em>Encuesta Huawei </em></h1>
+    <p id="description">
+      Realiza esta encuesta para saber que tanto te gustan nuestros productos
+    </p>
+
+    <form id="survey-form">
+      <p id="DT">Ingresa tus datos personales en los siguentes campos</p>
+      <label id="name-label" for="name">Nombre:</label>
+      <input
+        type="text"
+        id="name"
+        name="name"
+        placeholder="Tu nombre y apellido"
+        required
+      />
+
+      <label id="email-label" for="email">Correo Electrónico:</label>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="Tu correo electronico"
+        required
+      />
+
+      <label id="number-label" for="number">Edad:</label>
+      <input
+        type="number"
+        id="number"
+        name="age"
+        placeholder="Tu edad"
+        min="18"
+        max="100"
+      />
+
+      <label for="dropdown"
+        >¿Como encontraste este formulario sobre Motorola?</label
+      >
+      <select id="dropdown" name="source">
+        <option value="Conocido">Me la recomendo un conocido</option>
+        <option value="Anuncios">Anuncios en paginas webs</option>
+        <option value="redes">Redes sociales</option>
+        <option value="Amigos">Amigos</option>
+      </select>
+
+      <p>¿Con que frecuencias compras los productos de Huawei?</p>
+      <label
+        ><input type="radio" name="frecuencia" value="diario" />
+        Semanalmente</label
+      >
+      <label
+        ><input type="radio" name="frecuencia" value="semanal" />
+        Mensualmente</label
+      >
+      <label
+        ><input type="radio" name="frecuencia" value="mensual" />
+        Anualmente</label
+      >
+
+      <p>Del 1 a 10, que tanto te gustan los productos de nuestra empresa</p>
+      <label><input type="checkbox" name="ESCALA" value="diez" />10 </label>
+      <label><input type="checkbox" name="ESCALA" value="nueve" />9</label>
+      <label><input type="checkbox" name="ESCALA" value="ocho" />8</label>
+      <label><input type="checkbox" name="ESCALA" value="siete" />7</label>
+      <label><input type="checkbox" name="ESCALA" value="seis" />6</label>
+      <label><input type="checkbox" name="ESCALA" value="cinco" />5</label>
+      <label><input type="checkbox" name="ESCALA" value="cuatro" />4</label>
+      <label><input type="checkbox" name="ESCALA" value="tres" />3</label>
+      <label><input type="checkbox" name="ESCALA" value="dos" />2</label>
+      <label><input type="checkbox" name="ESCALA" value="uno" />1 =(</label>
+
+      <label for="comentarios"
+        >¿Porfavor dinos que podemos mejorar en nuestra empresa?:</label
+      >
+      <textarea
+        id="comentarios"
+        name="comentarios"
+        placeholder="Dinos lo que piensas de forma abierta !!"
+      ></textarea>
+
+      <button type="submit" id="submit">Enviar</button>
+    </form>
+  </body>
+</html>
